@@ -1,12 +1,31 @@
 import './App.css';
+import {
+    AboutUs,
+    Chef,
+    FindUs,
+    Footer,
+    Gallery,
+    Header,
+    Intro,
+    Laurels,
+    SpecialMenu,
+} from './container';
+import { Navbar } from './components';
 
 function App() {
     return (
-        <>
-            <div>
-                <h1>Hello, World</h1>
-            </div>
-        </>
+        <div>
+            <Navbar />
+            <Header />
+            <AboutUs />
+            <SpecialMenu />
+            <Chef />
+            <Intro />
+            <Laurels />
+            <Gallery />
+            <FindUs />
+            <Footer />
+        </div>
     );
 }
 
