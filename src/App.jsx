@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import './App.css';
 import {
     AboutUs,
@@ -18,14 +17,14 @@ function App() {
         <div>
             <Navbar />
             <Header />
-            {/* <AboutUs />
+            <AboutUs />
             <SpecialMenu />
             <Chef />
             <Intro />
             <Laurels />
             <Gallery />
             <FindUs />
-            <Footer /> */}
+            <Footer />
         </div>
     );
 }
